@@ -1,4 +1,4 @@
-fetch('./FlashCardsAsJSON/deck.json')
+fetch('/FlashCardsAsJSON/deck.json')
     .then(response => response.json())
     .then(data => {
         data['notes'].forEach(card => {
@@ -21,8 +21,10 @@ fetch('./FlashCardsAsJSON/deck.json')
             
             let breakLine = document.createElement('br')
             document.querySelector('#flashcards-container').appendChild(breakLine)
-        })
-        
+        });
     })
+    .catch(error => {
+        console.error('Error fetching JSON:', error);
+    });
 
 
