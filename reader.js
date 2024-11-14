@@ -1,4 +1,4 @@
-fetch('/FlashCardsAsJSON/deck.json')
+fetch('../FlashCardsAsJSON/deck.json')
     .then(response => response.json())
     .then(data => {
         data['notes'].forEach(card => {
