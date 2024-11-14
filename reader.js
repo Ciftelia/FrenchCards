@@ -1,4 +1,4 @@
-fetch('FrenchCards/FlashCardsAsJSON/deck.json')
+fetch('https://ciftelia.github.io/FrenchCards/FlashCardsAsJSON/deck.json')
     .then(response => response.json())
     .then(data => {
         data['notes'].forEach(card => {
