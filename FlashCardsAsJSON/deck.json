@@ -1,0 +1,629 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "4e78a352-a21e-11ef-8961-c54b13552302",
+    "deck_config_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Semaine 10",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2097994247084375821,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1258014525976772484,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 7480810344960469443,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grossier (adj.), grossièreté (n.)",
+                "Rude, impolite, vulgar  <br />\nCe terme désigne un comportement ou un langage qui manque de finesse ou de politesse."
+            ],
+            "guid": "eq=S*..LzY",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cour",
+                "Court, yard, courtship  <br />\nCe mot peut désigner un espace extérieur entouré de bâtiments, une cour royale ou judiciaire, ou encore le fait de faire la cour à quelqu'un."
+            ],
+            "guid": "K6NH&kq]</",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bénéficier de",
+                "Benefit from, enjoy  <br />\nProfiter d'une situation ou d'une ressource avantageuse."
+            ],
+            "guid": "CL_10^/vj/",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Revendiquer, revendication",
+                "Claim, demand  <br />\nDemander quelque chose avec insistance en affirmant ses droits."
+            ],
+            "guid": "rkXkF&ND%>",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Orthodoxie",
+                "Orthodoxy, traditionalism  <br />\nAdhésion stricte à une doctrine ou une tradition établie."
+            ],
+            "guid": "z,2xf9WC&v",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Empire",
+                "Empire, realm  <br />\nUn vaste ensemble de territoires et de peuples sous l'autorité d'un seul souverain."
+            ],
+            "guid": "O3FR/X$dc[",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Monarchie",
+                "Monarchy, kingdom  <br />\nUn système politique dirigé par un roi ou une reine héréditaire."
+            ],
+            "guid": "A@#tp/)/$P",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "République",
+                "Republic, commonwealth  <br />\nUn système politique où le pouvoir est détenu par des représentants élus par le peuple."
+            ],
+            "guid": "Dp)$3Wt))j",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aspect (comme synonyme d’« apparence »)",
+                "Appearance, look   <br />\nLa manière dont quelque chose se présente visuellement aux yeux des autres."
+            ],
+            "guid": "vZ)I2qO.=:",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Conférer",
+                "Confer, grant   <br />\nAccorder un titre ou un avantage particulier à quelqu'un lors d'une cérémonie officielle."
+            ],
+            "guid": "e?cPnfQ2Rn",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ouvrier",
+                "Worker, laborer   <br />\nPersonne qui effectue un travail manuel souvent dans le secteur industriel."
+            ],
+            "guid": "Cd!GAQQH~S",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Réverbère (n.), lampadaire",
+                "Streetlamp, streetlight   <br />\nAppareil d'éclairage public installé sur les routes et dans les espaces extérieurs urbains."
+            ],
+            "guid": "k#C2:T=Bju",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Retraite (n.)",
+                "Retirement, retreat    <br />\nPériode où une personne cesse son activité professionnelle après avoir atteint l'âge légal; peut aussi désigner le fait de se retirer pour réfléchir ou prier."
+            ],
+            "guid": "kH7O$s8iB=",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mouvement (artistique, intellectuel) ou esthétique (n.)",
+                "Movement or aesthetic    <br />\nUn courant artistique ou intellectuel caractérisé par des idées et des styles communs."
+            ],
+            "guid": "gE-ej;DnL~",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Officiel (adj.)",
+                "Official, formal  <br />\nQui est approuvé ou reconnu par une autorité."
+            ],
+            "guid": "j/Ami$#}}*",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Classique (adj.)",
+                "Classic, traditional  <br />\nQui appartient à une tradition établie, souvent considéré comme un modèle."
+            ],
+            "guid": "pFD:Krz1${",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Repères",
+                "Landmarks, reference points  <br />\nÉléments qui aident à s'orienter ou à structurer une pensée."
+            ],
+            "guid": "c~*4zrY@-j",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Généraliste vs. spécialiste",
+                "Generalist vs. specialist  <br />\nUn généraliste a des connaissances dans plusieurs domaines, tandis qu'un spécialiste est expert dans un domaine particulier."
+            ],
+            "guid": "ev]gAFk.;=",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nobles, noblesse",
+                "Nobles, nobility  <br />\nPersonnes appartenant à la classe sociale aristocratique; ensemble des valeurs et comportements liés à cette classe."
+            ],
+            "guid": "c0Y2248IXg",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Instruction vs. éducation vs. formation (connotations de ces termes)",
+                "Instruction: teaching, education; Éducation: upbringing; Formation: training   <br />\nInstruction se réfère à l'enseignement académique, éducation inclut le développement social et moral, formation concerne l'acquisition de compétences spécifiques."
+            ],
+            "guid": "A6ikrI,12P",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Raffinement, raffiné",
+                "Refinement, refined   <br />\nCaractère d'une personne ou d'une chose qui est élégante et délicate; qui montre du goût et de la subtilité."
+            ],
+            "guid": "M1`KO@^)Do",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cultivé, se cultiver",
+                "Cultivated, to cultivate oneself   <br />\nAvoir des connaissances approfondies; enrichir ses connaissances par l'étude ou les expériences culturelles."
+            ],
+            "guid": "LEZDNY5=:_",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mentalité",
+                "Mentality   <br />\nEnsemble des manières de penser propres à un individu ou un groupe."
+            ],
+            "guid": "OS(]x>NPL+",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Démocratisation",
+                "Democratization   <br />\nProcessus par lequel quelque chose devient accessible au plus grand nombre."
+            ],
+            "guid": "D5DTgd9*M?",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Valoriser, valorisation",
+                "To value/appreciate, enhancement/valuation   <br />\nAccorder de l'importance à quelque chose; action d'augmenter la valeur perçue d'une chose ou personne."
+            ],
+            "guid": "seVoRK1UsF",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Promouvoir",
+                "To promote    <br />\nEncourager le développement ou l'adoption de quelque chose par des actions positives."
+            ],
+            "guid": "H)0},BD5-m",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Épreuve",
+                "Test/trial    <br />\nExpérience difficile qui demande des efforts ou vérification pour évaluer les aptitudes."
+            ],
+            "guid": "w@#9!9Ua%m",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Élite (n., adj.)",
+                "Elite   <br />\nGroupe de personnes considéré comme supérieur en raison de ses compétences ou privilèges; ce qui est considéré comme excellent dans un domaine donné."
+            ],
+            "guid": "Fbf48RiYMP",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Populaire",
+                "Popular/common    <br />\nApprécié par la majorité des gens ; qui touche le grand public plutôt qu'une élite restreinte."
+            ],
+            "guid": "jzYmm[~Y<`",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Conformisme (vs. conformité (n.), conformer (v.))",
+                "Conformism vs. conformity/compliance      <br />\nTendance à se plier aux normes sociales établies ; conformité est l'état d'être conforme ; conformer signifie adapter son comportement aux règles en vigueur."
+            ],
+            "guid": "j:UucL6C%#",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cliché",
+                "Cliché/stereotype     <br />\nIdée trop souvent répétée et banalisée au point où elle perd son originalité et sa pertinence."
+            ],
+            "guid": "PHb&/Zv3-i",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Niveler (par le haut ou par le bas) (v.)",
+                "To level out/up or down     <br />\nRendre uniforme en effaçant les différences ; peut signifier élever vers un niveau supérieur ou abaisser vers un niveau inférieur."
+            ],
+            "guid": "sL4NnW)aFN",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Indigène",
+                "Indigenous/native     <br />\nPersonne originaire du pays où elle vit ; propre au lieu où il apparaît naturellement sans intervention extérieure."
+            ],
+            "guid": "Mg&@e2$C8[",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vaincre (v.), vaincu (adj., p.p.)",
+                "To conquer/defeat; defeated/conquered      <br />\nVaincre signifie remporter la victoire sur quelqu'un ; être vaincu c'est avoir subi une défaite face à un adversaire."
+            ],
+            "guid": "G_RL5WZKu>",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Instaurer, instauration",
+                "To establish/set up; establishment        <br />\nMettre en place quelque chose pour la première fois ; acte d'introduire une nouvelle règle ou système."
+            ],
+            "guid": "sn^PCH.G/O",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Monastère",
+                "Monastery      <br />\nLieu où vivent des moines qui suivent une règle religieuse commune dédiée principalement au travail spirituel et manuel."
+            ],
+            "guid": "L!_S2R@z4v",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Annexer, annexation",
+                "To annex/annexing      <br />\nAction d'intégrer territorialement un espace supplémentaire sous sa juridiction politique ; incorporation d'un territoire extérieur dans son propre territoire souverain."
+            ],
+            "guid": "IxJ!}ca=6w",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Apaiser",
+                "To appease/calm       <br />\nFaire cesser les tensions émotionnelles chez quelqu’un/ou régler pacifiquement un conflit potentiel entre deux parties rivales/polémistes etc."
+            ],
+            "guid": "Cx|}s/yF4(",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Essor",
+                "Rise/development<br />\nPériode particulièrement favorable pendant laquelle on assiste généralement fortement favorablement croissant/prospérant dynamique expansion rapide transformations majeures économiques socioculturelles etc."
+            ],
+            "guid": "e#@Xa_8q81",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Avènement",
+                "Advent/accession       <br />\nArrivée solennelle d'un événement important ; prise officielle du pouvoir par quelqu'un dans certaines institutions sociales notamment royales."
+            ],
+            "guid": "ksHkkgnJei",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
