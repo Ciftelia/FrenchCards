@@ -1,0 +1,761 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "efdf39ee-a602-11ef-b8b8-076ae2ab3cae",
+    "deck_config_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Semaine 9",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2097994247084375821,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1258014525976772484,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 7480810344960469443,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Injurieux",
+                "insulting, offensive  <br />\nQui blesse par des propos ou des actes; offensant."
+            ],
+            "guid": "muZL;)+swv",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Épithète (sens grammatical et courant)",
+                "epithet  <br />\nMot ou groupe de mots qualificatif qui accompagne un nom pour le définir."
+            ],
+            "guid": "lgmH[B}=7t",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prétendre",
+                "to claim, to assert  <br />\nAffirmer quelque chose comme vrai, souvent sans preuve."
+            ],
+            "guid": "F<qxO4H80}",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ce dernier, cette dernière",
+                "the latter  <br />\nRéférence au dernier élément mentionné dans une phrase."
+            ],
+            "guid": "GF|qM>NHK",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Un parti",
+                "a party, a faction  <br />\nGroupe organisé partageant des idées politiques communes."
+            ],
+            "guid": "PE>d#WG&.3",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Défenseur, champion, partisan, adepte",
+                "defender, advocate, supporter   <br />\nPersonne qui soutient activement une cause ou un individu."
+            ],
+            "guid": "jCCOXq.]51",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Détracteur, adversaire",
+                "detractor, opponent   <br />\nPersonne qui critique ou s'oppose à une idée ou personne."
+            ],
+            "guid": "wq9$b#*If!",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Proposition (N.B. dans le contexte de l’argumentation)",
+                "proposition    <br />\nIdée ou affirmation présentée pour être discutée ou examinée."
+            ],
+            "guid": "M.qp$d#uw{",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "L’usage",
+                "usage    <br />\nManière habituelle d'employer quelque chose; coutume établie."
+            ],
+            "guid": "e|,%%P+PaB",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Façonner",
+                "to shape, to mold    <br />\nDonner une forme déterminée à quelque chose; influencer son développement."
+            ],
+            "guid": "p3v?9h1Gks",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Phallocentrique / phallocentrisme",
+                "phallocentric  <br />\nRelatif à une vision du monde centrée sur le masculin ou le phallus."
+            ],
+            "guid": "p_w-[DN{s7",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Emporter, l’emporter sur",
+                "to carry, to prevail over  <br />\nGagner ou surpasser quelque chose ou quelqu'un."
+            ],
+            "guid": "GPMG2HPXT^",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Académie française",
+                "French Academy  <br />\nInstitution chargée de définir la langue française et ses règles."
+            ],
+            "guid": "hXW!4>g8$]",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Attester (v.) / attesté (adj.)",
+                "to attest / attested  <br />\nCertifier la véracité ou l'authenticité de quelque chose."
+            ],
+            "guid": "H`~l8gn,8Q",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Paradoxal/paradoxalement",
+                "paradoxical/paradoxically  <br />\nQui est en contradiction avec la logique habituelle."
+            ],
+            "guid": "c[S5>ajkn[",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ostentatoire",
+                "ostentatious  <br />\nQui est fait pour se faire remarquer, qui est trop visible."
+            ],
+            "guid": "ouG|tB42wQ",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Clivage",
+                "division, split  <br />\nSéparation nette entre deux choses ou groupes distincts."
+            ],
+            "guid": "M3Ps?;o?t>",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inédit",
+                "unpublished, new, unprecedented   <br />\nQuelque chose qui n'a jamais été publié ou vu auparavant."
+            ],
+            "guid": "Q*L@;6vs_;",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quelconque",
+                "ordinary, any   <br />\nSans qualité particulière; indéfini."
+            ],
+            "guid": "pq{d!p^@l7",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Revendication",
+                "claim, demand   <br />\nAction de réclamer quelque chose comme un droit."
+            ],
+            "guid": "dXfN-607)E",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Idéologie / idéologique",
+                "ideology / ideological   <br />\nSystème d'idées qui forme une théorie politique ou sociale."
+            ],
+            "guid": "(VEE@2aom",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Antithétique",
+                "antithetical   <br />\nQui s'oppose directement à autre chose dans un contraste fort."
+            ],
+            "guid": "pYuGN3qR9f",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aléatoire",
+                "random    <br />\nQui dépend du hasard et ne suit pas de règle précise."
+            ],
+            "guid": "1We(%*$xF",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Précepte",
+                "precept    <br />\nRègle de conduite ou principe moral."
+            ],
+            "guid": "u:&2Btj=ou",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "À rebours",
+                "backwards, against the grain    <br />\nDans le sens opposé au sens habituel."
+            ],
+            "guid": "C^.B,6@.bv",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "S’affranchir (de qqchose)",
+                "to free oneself (from something)     <br />\nSe libérer d'une contrainte ou d'une obligation."
+            ],
+            "guid": "y+~@U)N._^",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Syllabe, syllabation",
+                "syllable, syllabification     <br />\nUnité phonétique composée d'un son vocalique; division en syllabes."
+            ],
+            "guid": "wD5CM<j90+",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Accent (tonique), accentuation",
+                "stress accent, emphasis   <br />\nMise en relief d'une syllabe dans un mot; manière de prononcer avec force."
+            ],
+            "guid": "uL;w)]+icy",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Intonation",
+                "intonation      <br />\nVariation mélodique dans la voix lors de l'expression orale."
+            ],
+            "guid": "w[%!|*IHqL",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Groupe rythmique",
+                "rhythmic group      <br />\nEnsemble de mots formant une unité rythmique dans une phrase parlée."
+            ],
+            "guid": "Jvgn~5(f3G",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Modulation (de la voix) / contour mélodique",
+                "voice modulation / melodic contour      <br />\nVariation du ton et du rythme dans la voix pour exprimer des nuances."
+            ],
+            "guid": "OCcR`#lE^.",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inflexion",
+                "inflection      <br />\nChangement dans la hauteur ou le timbre de la voix."
+            ],
+            "guid": "y,j!=H_>__",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Élan",
+                "momentum, impulse     <br />\nMouvement rapide et énergique vers l'avant; impulsion initiale."
+            ],
+            "guid": "u(`hh*990N",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vocaliser",
+                "to vocalize      <br />\nProduire des sons vocaux; chanter sans paroles précises."
+            ],
+            "guid": "bE/X0G=M6/",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Synthèse",
+                "synthesis     <br />\nCombinaison d'éléments pour former un tout cohérent."
+            ],
+            "guid": "lM*0BdB=T)",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "(Porter un) jugement",
+                "(to make a) judgment     <br />\nAction d'évaluer et former une opinion sur quelque chose ou quelqu'un."
+            ],
+            "guid": "vcq6SGL6ry",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "(Travail) préalable",
+                "preliminary (work)     <br />\nTravail effectué avant une action principale; préparatoire."
+            ],
+            "guid": "jH=C-|qf6f",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Une fin, des fins",
+                "an end/aims       <br />\nBut ultime que l'on cherche à atteindre; finalité(s)."
+            ],
+            "guid": "L_DQkLkRUC",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nuance, nuancé",
+                "nuance/nuanced       <br />\nDifférence subtile; qui présente des distinctions fines et délicates."
+            ],
+            "guid": "P%WjY?x#-2",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Thème",
+                "theme        <br />\nSujet principal autour duquel s'articule un discours ou texte."
+            ],
+            "guid": "w#:yW|KMg8",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Consignes",
+                "instructions        <br />\nDirectives précises données pour réaliser une tâche donnée."
+            ],
+            "guid": "L@7540H.L+",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Objet",
+                "object        <br />\nChose concrète sur laquelle porte une action; sujet visé par une réflexion."
+            ],
+            "guid": "JM0SkVDA_S",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trier",
+                "to sort        <br />\nClasser par catégories distinctes selon certains critères."
+            ],
+            "guid": "vA)Q5nmB&v",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Explicite",
+                "explicit       <br />\nClair et précis sans ambiguïté ni sous-entendu caché."
+            ],
+            "guid": "P5.x)++ZoH",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Implicite",
+                "implicit       <br />\nSous-entendu sans être directement exprimé."
+            ],
+            "guid": "OU>3>AF6k:",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Impersonnel",
+                "impersonal       <br />\nQui manque de chaleur humaine; objectif."
+            ],
+            "guid": "jdoI$947bm",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neutre (style, registre)",
+                "neutral (style/register)<br />\nSans parti pris ni émotion marquée."
+            ],
+            "guid": "o<j/CVH];$",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Soutenu (style, registre)",
+                "formal/elevated (style/register)<br />\nLangue raffinée utilisée dans les contextes officiels."
+            ],
+            "guid": "NypGwo!#qA",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Piège",
+                "trap<br />\nSituation trompeuse conçue pour causer des erreurs."
+            ],
+            "guid": "g+v1pJL/wJ",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Maladroit",
+                "awkward/clumsy<br />\nManque d'adresse physique ou sociale."
+            ],
+            "guid": "uCzgYl>6+7",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Élogieux",
+                "praiseworthy/laudatory<br />\nExprime des louanges avec enthousiasme."
+            ],
+            "guid": "nN][b@C[dy",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

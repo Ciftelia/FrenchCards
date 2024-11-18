@@ -1,0 +1,377 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "207ffade-a603-11ef-b8b8-076ae2ab3cae",
+    "deck_config_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Semaine 4",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2097994247084375821,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1258014525976772484,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 7480810344960469443,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Syntaxe",
+                "Syntax  <br />\nEnsemble des règles qui régissent l'organisation des mots dans une phrase."
+            ],
+            "guid": "M|ql6gNtFq",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sujet ou groupe sujet (GS)",
+                "Subject  <br />\nFonction syntaxique représentant l'entité dont on parle dans la phrase."
+            ],
+            "guid": "D03[t9#hQ}",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prédicat ou groupe verbal (GV)",
+                "Predicate  <br />\nPartie de la phrase qui dit quelque chose à propos du sujet."
+            ],
+            "guid": "TKoTr*)8M",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Noyau (d’un groupe sémantique)",
+                "Core  <br />\nÉlément central d'un groupe de mots qui en détermine la fonction."
+            ],
+            "guid": "pW|2YgXguy",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Expansion (d’un groupe sémantique)",
+                "Expansion  <br />\nÉlément ajouté au noyau pour en préciser le sens ou les limites."
+            ],
+            "guid": "k|D(p6et.:",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Objet",
+                "Object  <br />\nÉlément de la phrase subissant l'action du verbe."
+            ],
+            "guid": "h^.ZW]ME8p",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Proposition",
+                "Clause / Proposition  <br />\nUnité syntaxique composée d'un sujet et d'un prédicat."
+            ],
+            "guid": "sh8dZlhpt8",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Phrase simple / complexe",
+                "Simple / Complex sentence  <br />\nPhrase contenant une seule proposition ou plusieurs propositions."
+            ],
+            "guid": "AYPTXC_?Lk",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Coordination / subordination",
+                "Coordination / Subordination   <br />\nProcédés reliant des propositions ou des éléments grammaticaux entre eux, soit sur un pied d'égalité, soit en établissant une hiérarchie."
+            ],
+            "guid": "j%i?k$}3oG",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complément essentiel",
+                "Essential complement   <br />\nÉlément nécessaire à la compréhension du verbe ou du nom qu'il complète."
+            ],
+            "guid": "xA_Dewm:@K",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complément d’objet direct (COD)",
+                "Direct object complement   <br />\nComplément qui reçoit directement l'action du verbe sans préposition intermédiaire."
+            ],
+            "guid": "s$,~&I.:FI",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complément d’objet indirect (COI)",
+                "Indirect object complement   <br />\nComplément relié au verbe par une préposition, indiquant à qui ou à quoi s'adresse l'action du verbe."
+            ],
+            "guid": "GaG3/=p7~U",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complément d’objet second (COS)",
+                "Second object complement   <br />\nDeuxième complément associé au verbe, souvent après un COD, précisant un bénéficiaire ou un destinataire de l'action verbale."
+            ],
+            "guid": "bxpwJh>v1M",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Complément circonstanciel (CC)",
+                "Circumstantial complement    <br />\nIndication supplémentaire sur le lieu, le temps, la manière, etc., concernant l'action verbale."
+            ],
+            "guid": "O(~ba$6vS]",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Attribut",
+                "Attribute    <br />\nFonction grammaticale indiquant une qualité ou un état du sujet ou de l'objet par le biais d'un verbe attributif."
+            ],
+            "guid": "fVsJ?!UFDp",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Accord",
+                "Agreement    <br />\nConformité grammaticale entre les éléments linguistiques en genre et en nombre."
+            ],
+            "guid": "N#a9<fQ&OB",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Genre",
+                "Gender    <br />\nCatégorie grammaticale distinguant masculin et féminin."
+            ],
+            "guid": "AN9jshHw&G",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nombre",
+                "Number    <br />\nCatégorie grammaticale distinguant singulier et pluriel."
+            ],
+            "guid": "DUA^5@v3:t",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Déterminant",
+                "Determinant    <br />\nMot introduisant un nom pour indiquer son genre et son nombre, ainsi que sa référence précise."
+            ],
+            "guid": "e3NKzSg]H8",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

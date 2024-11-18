@@ -1,30 +1,52 @@
-fetch('/FrenchCards/FlashCardsAsJSON/deck.json')
-    .then(response => response.json())
-    .then(data => {
-        data['notes'].forEach(card => {
-            console.log(card['fields'][0])
-            console.log(card['fields'][1])
-            let question = card['fields'][0]
-            let answer = card['fields'][1]
-            let cardDiv = document.createElement('div')
+document.addEventListener('DOMContentLoaded', () => {
+    const selector = document.getElementById('json-selector');
+    fetchAndDisplayJSON(selector.value);
 
-            cardDiv.classList.add('card')
-            let questionDiv = document.createElement('div')
-            questionDiv.classList.add('question')
-            questionDiv.innerHTML = question
-            let answerDiv = document.createElement('div')
-            answerDiv.classList.add('answer')
-            answerDiv.innerHTML = answer
-            cardDiv.appendChild(questionDiv)
-            cardDiv.appendChild(answerDiv)
-            document.querySelector('#flashcards-container').appendChild(cardDiv)
-            
-            let breakLine = document.createElement('br')
-            document.querySelector('#flashcards-container').appendChild(breakLine)
-        });
-    })
-    .catch(error => {
-        console.error('Error fetching JSON:', error);
+    selector.addEventListener('change', (event) => {
+        fetchAndDisplayJSON(event.target.value);
     });
+});
+
+function fetchAndDisplayJSON(filePath) {
+    fetch(filePath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            createHtmlElement(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+}
+
+function createHtmlElement(jsonData) {
+    const container = document.getElementById('flashcards-container');
+    container.innerHTML = ''; // Clear previous content
+
+    jsonData.notes.forEach(note => {
+        const cardElement = document.createElement('div');
+        cardElement.className = 'flashcard';
+
+        const questionElement = document.createElement('h4');
+        questionElement.innerHTML = note.fields[0];
+        cardElement.appendChild(questionElement);
+
+        const answerElement = document.createElement('p');
+        answerElement.innerHTML = note.fields[1];
+        cardElement.appendChild(answerElement);
+
+        container.appendChild(cardElement);
+        
+        // Sleep for a short duration at the end of each loop iteration
+    });
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 
