@@ -1,5 +1,4 @@
 #### TO DO
 
-- Create multiple pages, one for each deck
-- Set landing page as directory to those pages
 - Add flashcard functionality
+- Fetch from Anki, instead of having to export manually
