@@ -1,8 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    text-size-adjust: 300%;
-    font-size: 1.2rem; /* Increase base font size */
+    font-size: 1.17rem; /* Increase base font size */
 }
 
 .centered {
@@ -18,12 +17,16 @@
 }
 
 #flashcards-container {
-    height: 75vh; /* Adjust the height as needed */
+    height: 77vh; /* Adjust the height as needed */
     position: relative;
 }
 
+.smaller-padding {
+    padding: 0px;
+}
+
 button {
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border: none;
     border-radius: 5px;
@@ -34,6 +37,13 @@ button {
     max-width: 100%; /* Ensure button does not exceed viewport width */
     overflow-wrap: break-word; /* Break long words */
 }
+
+.same-size {
+    width: 40vh;
+    height: 10vh;
+}
+
+
 
 select {
     padding: 10px;

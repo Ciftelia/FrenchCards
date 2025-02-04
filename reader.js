@@ -31,7 +31,7 @@ function showCard(index) {
 
     const questionElement = document.createElement('h4');
     questionElement.innerHTML = note.fields[0];
-    questionElement.className = 'centered';
+    questionElement.className = 'centered smaller-padding';
     cardElement.appendChild(questionElement);
 
     const answerElement = document.createElement('button');
@@ -73,13 +73,15 @@ function prevCard() {
 
     // Create navigation buttons
     const prevButton = document.createElement('button');
-    prevButton.innerText = 'Previous Card';
+    prevButton.innerText = 'Last Card';
     prevButton.onclick = prevCard;
+    prevButton.className = 'same-size';
     container.appendChild(prevButton);  
 
     const nextButton = document.createElement('button');
     nextButton.innerText = 'Next Card';
     nextButton.onclick = nextCard;  
+    nextButton.className = 'same-size';
     container.appendChild(nextButton);
 
     // Show the first card
