@@ -1,0 +1,305 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "18a1a092-e334-11ef-aded-a94da2f82c22",
+    "deck_config_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Semaine 5",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2097994247084375821,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1258014525976772484,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 7480810344960469443,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sujet",
+                "Subject  <br>\nUn mot ou groupe de mots qui indique de quoi ou de qui il est question dans une phrase."
+            ],
+            "guid": "Au=)[0.Q>O",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Personne (dans contexte de la conjugaison)",
+                "Person (in the context of conjugation)  <br>\nSe réfère à l'entité grammaticale qui effectue l'action du verbe, comme première, deuxième ou troisième personne."
+            ],
+            "guid": "d}~{uA<AoS",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Temps/mode",
+                "Tense/mood  <br>\nIndique le moment où se déroule l'action exprimée par le verbe et la manière dont elle est envisagée."
+            ],
+            "guid": "O-mB*Omz$B",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Groupe verbal",
+                "Verb group  <br>\nUne catégorie de verbes qui partagent des caractéristiques communes, notamment en conjugaison."
+            ],
+            "guid": "n,DxhAByFp",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Racine / radical",
+                "Root/stem  <br>\nLa partie invariable d'un mot à laquelle on ajoute des terminaisons pour former différentes formes du mot."
+            ],
+            "guid": "L?6sA|lkg!",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Terminaison",
+                "Ending/suffix  <br>\nLa partie ajoutée à la racine d'un mot pour indiquer sa fonction grammaticale, comme le temps ou le nombre."
+            ],
+            "guid": "zWCgq,GT/P",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Forme verbale",
+                "Verb form  <br>\nLa variation d'un verbe pour exprimer différentes personnes, temps ou modes."
+            ],
+            "guid": "IUHAGaG{1N",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Verbe pronominal",
+                "Pronominal verb    <br>\nUn verbe accompagné d'un pronom réfléchi, indiquant que l'action est réalisée par et sur le sujet lui-même."
+            ],
+            "guid": "m:.UqX~*%h",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pronom réfléchi",
+                "Reflexive pronoun    <br>\nUn pronom utilisé avec un verbe pronominal pour indiquer que l'action se reflète sur le sujet."
+            ],
+            "guid": "Ph.U/clO=K",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nom collectif",
+                "Collective noun    <br>\nUn nom qui désigne un ensemble d'individus ou d'objets comme une seule unité."
+            ],
+            "guid": "k{avUOht|R",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mot variable/invariable",
+                "Variable/invariable word    <br>\nUn mot qui change (ou non) en fonction du genre, du nombre ou de la personne."
+            ],
+            "guid": "Of,8w7:jo|",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Antécédent",
+                "Antecedent    <br>\nLe mot ou groupe de mots auquel un pronom fait référence dans une phrase."
+            ],
+            "guid": "Q|Y{kzNP2E",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Adjectif invariable",
+                "Invariable adjective    <br>\nUn adjectif qui ne change pas de forme selon le genre ou le nombre du nom qu'il qualifie."
+            ],
+            "guid": "O#ke6*/oa|",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

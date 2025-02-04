@@ -1042,18 +1042,6 @@
             "tags": [
                 "Obsidian_to_Anki"
             ]
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "<strong>Introduction & Appearance</strong>",
-                "<ul>\n<li><strong>Sophisticated Entrance</strong>: He jumps down from the ship in an elegant, almost refined manner, despite his background.</li>\n<li><strong>Attire</strong>:<ul>\n<li>No hat (bareheaded).</li>\n<li>Wears shorts and a small doublet (tight-fitting jacket), with small sandals.</li>\n<li>His long braided hair suggests a more \"exotic\" or non-European style.</li></ul></li>\n<li><strong>Background</strong>:<ul>\n<li>He's a <strong>Huron</strong> from Canada, which adds to his exotic appearance.</li>\n<li>Despite his native origins, he speaks <strong>French fluently</strong>.</li>\n<li>He has <strong>light skin</strong>, which could be a notable characteristic considering his Huron heritage.</li></ul></li>\n</ul>"
-            ],
-            "guid": "jBb8x]q>uF",
-            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
-            "tags": [
-                "Obsidian_to_Anki"
-            ]
         }
     ],
     "reviewLimit": null,

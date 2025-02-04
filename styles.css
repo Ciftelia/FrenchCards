@@ -1,5 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-size-adjust: 300%;
+    font-size: 1.2rem; /* Increase base font size */
 }
 
 .centered {
@@ -15,7 +18,7 @@
 }
 
 #flashcards-container {
-    height: 70vh; /* Adjust the height as needed */
+    height: 75vh; /* Adjust the height as needed */
     position: relative;
 }
 

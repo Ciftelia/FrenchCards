@@ -1,3 +1,6 @@
+const isGitHubPages = window.location.hostname === 'your-github-username.github.io';
+const basePath = isGitHubPages ? '/FrenchCards' : '';
+
 let jsonData;  // Global variable for fetched data
 let currentIndex = 0;
 
@@ -64,7 +67,7 @@ function prevCard() {
 
  document.addEventListener('DOMContentLoaded', async () => {
     const selector = document.getElementById('json-selector');
-    jsonData = await fetchJSON(selector.value);
+    jsonData = await fetchJSON(basePath+selector.value);
 
     const container = document.getElementById('container');
 
@@ -84,7 +87,7 @@ function prevCard() {
 });
 
 document.getElementById('json-selector').addEventListener('change', async (event) => {
-    jsonData = await fetchJSON(event.target.value);
+    jsonData = await fetchJSON(basePath+event.target.value);
     currentIndex = 0; // Reset to the first card
     showCard(currentIndex);
 });

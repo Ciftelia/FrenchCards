@@ -1,0 +1,617 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6bc7842c-e333-11ef-a400-7d95892c0949",
+    "deck_config_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4e78ae60-a21e-11ef-8961-c54b13552302",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Semaine 6 + Yaguello",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2097994247084375821,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 1258014525976772484,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 7480810344960469443,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Synthèse / résumé / synopsis",
+                "Summary, outline, synopsis  <br />\nUne description condensée des points principaux d'un texte ou d'une idée."
+            ],
+            "guid": "m!NWU4jAYF",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lecture en diagonale",
+                "Skimming  <br />\nLire rapidement pour se faire une idée générale du contenu sans entrer dans les détails."
+            ],
+            "guid": "PX4,+oy)8^",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lecture indicative",
+                "Indicative reading  <br />\nLire pour identifier les éléments clés ou pour obtenir des informations spécifiques."
+            ],
+            "guid": "s9U_zkN2S`",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table des matières",
+                "Table of contents  <br />\nListe organisée des sections et chapitres d'un livre avec numéros de page."
+            ],
+            "guid": "hDgX,29gdj",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Quatrième de couverture",
+                "Back cover blurb, book synopsis  <br />\nTexte au dos d'un livre qui résume le contenu de l'ouvrage."
+            ],
+            "guid": "gFHS_-8AIw",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Surligner / annoter",
+                "Highlight, annotate  <br />\nMettre en évidence ou ajouter des commentaires à un texte pour une meilleure compréhension."
+            ],
+            "guid": "J4H3q$gc%V",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fiche de lecture",
+                "Reading card/report, book review  <br />\nDocument résumant les informations principales et l'analyse critique d'un livre lu."
+            ],
+            "guid": "D}{[/{}h0K",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Assimiler une idée",
+                "Assimilate an idea   <br />\nIntégrer et comprendre pleinement un concept ou une notion."
+            ],
+            "guid": "w&=v{XBy[3",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Voyelle",
+                "Vowel   <br />\nSon produit sans obstruction dans le conduit vocal (a, e, i, o, u)."
+            ],
+            "guid": "gjIO>of|+N",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Consonne",
+                "Consonant   <br />\nSon produit avec obstruction partielle ou totale dans le conduit vocal (b, c, d…)."
+            ],
+            "guid": "oRBr@l.V{u",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Liaison (obligatoire, interdite, facultative)",
+                "Linking (mandatory, forbidden, optional)    <br />\nPhénomène phonétique où la consonne finale est prononcée devant la voyelle initiale du mot suivant."
+            ],
+            "guid": "Epq>Ed.EqP",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "H muet",
+                "Silent H    <br />\nLettre 'h' qui n'est pas prononcée et ne bloque pas la liaison avec le mot précédent."
+            ],
+            "guid": "u2{|xZ.53%",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "H aspiré",
+                "Aspirated H    <br />\nLettre 'h' qui empêche la liaison avec le mot précédent et indique souvent un son distinctif."
+            ],
+            "guid": "K5@}@I0_Hf",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Groupe syntaxique",
+                "Syntactic group    <br />\nEnsemble de mots formant une unité fonctionnelle dans une phrase (sujet, verbe…)."
+            ],
+            "guid": "Lg@a<8-6v",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Manifestement",
+                "Obviously, evidently    <br />\nD'une manière claire et évidente à l'observation ou à l'analyse."
+            ],
+            "guid": "Da!WJy=s;;",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Être constitutif de qqchose",
+                "Be constitutive of something    <br />\nFaire partie intégrante de quelque chose ; être un élément essentiel."
+            ],
+            "guid": "o=uiJ_![@,",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Celui-ci / celle-ci (pron.)",
+                "This one   <br />\nPronom démonstratif utilisé pour désigner quelque chose proche dans le discours."
+            ],
+            "guid": "obG.G]x>cx",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Concevoir",
+                "Conceive     <br />\nCréer mentalement ; imaginer ou élaborer un concept."
+            ],
+            "guid": "q[vNIq8LW=",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Énoncer",
+                "State     <br />\nExprimer clairement par écrit ou oralement."
+            ],
+            "guid": "wtPukDxo)V",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qualités intrinsèques / extrinsèques",
+                "Intrinsic/extrinsic qualities     <br />\nCaractéristiques essentielles internes/externes d'un objet ou individu."
+            ],
+            "guid": "ehQ_,23}*b",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Univoque / équivoque",
+                "Univocal/equivocal     <br />\nQui a un seul sens clair/qui peut avoir plusieurs interprétations."
+            ],
+            "guid": "h.[hP=J#QR",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Refléter / être le reflet de qqchose",
+                "Reflect/be the reflection of something      <br />\nMontrer fidèlement ; représenter précisément une image ou idée."
+            ],
+            "guid": "s{`nxl;5)2",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Agencement",
+                "Arrangement      <br>\nOrganisation harmonieuse des éléments dans un espace donné."
+            ],
+            "guid": "A?Ah[ZES`D",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Langue maternelle",
+                "Mother tongue      <br />\nPremière langue apprise naturellement par un individu dès l'enfance."
+            ],
+            "guid": "j-iw?5u}QX",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Incontournable",
+                "Unavoidable       <br />\nEssentiel ; qu'on ne peut ignorer ni éviter en raison de son importance."
+            ],
+            "guid": "u4y]e%QL@;",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aller de soi",
+                "Be obvious       <br />\nÊtre évident sans besoin d'explication supplémentaire ; couler naturellement."
+            ],
+            "guid": "m@Nv]}$)pD",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Or (conjonction, figure de transition/opposition)",
+                "Yet/but        <br />\nUtilisé pour introduire une opposition ou transition entre deux idées contrastantes."
+            ],
+            "guid": "JvUF#d3AiV",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nier",
+                "Deny        <br />\nRejeter comme faux ; refuser d'accepter l'existence ou la vérité de quelque chose."
+            ],
+            "guid": "F!|o3o6yw%",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Témoin/ témoigner de qqchose",
+                "Witness/testify to something        <br />\nPersonne qui voit un événement/se manifester comme preuve visible d'une réalité donnée."
+            ],
+            "guid": "fvatyWISpQ",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "User de",
+                "Use/employ         <br />\nFaire usage délibéré; appliquer; mettre en œuvre quelque chose selon son intention première."
+            ],
+            "guid": "p3~(5y<mGH",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Issu(e) (adj.)",
+                "Coming from/originating from          <br />\nQui provient directement; dérivé; ayant comme origine particulière contextuelle mentionnée précédemment ."
+            ],
+            "guid": "Q3wu`#3GE3",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Figer / se figer",
+                "Freeze/become static           <br />\nRendre immobile; cesser tout mouvement soudainement au sein même moment précis donné ."
+            ],
+            "guid": "bJ^feZG@NK",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Contrainte",
+                "Constraint             <br />\nLimitation imposée venant soit extérieurement soit intérieurement entravant libre action souhaitée initialement planifiée ."
+            ],
+            "guid": "5s93IQk2k",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mettre qqchose en relief",
+                "Highlight/emphasize               <br />\nFaire ressortir particularité notable distinguant spécialement au sein ensemble global généralement considéré ."
+            ],
+            "guid": "e,T+?T%#D:",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Certes (adv., figure de concession)",
+                "Certainly, admittedly  <br />\nUtilisé pour reconnaître un point tout en introduisant une idée opposée ou nuancée."
+            ],
+            "guid": "L,P-{2UZk]",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tirer parti de",
+                "Take advantage of, make use of  <br />\nExploiter les bénéfices ou les opportunités offerts par une situation."
+            ],
+            "guid": "I|.hlcY-Nh",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Subir",
+                "Undergo, suffer  <br />\nÊtre affecté par un événement ou une situation souvent désagréable."
+            ],
+            "guid": "x`aCwQ+23S",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Élucider",
+                "Elucidate, clarify  <br />\nRendre clair et compréhensible ce qui est obscur ou complexe."
+            ],
+            "guid": "z}Vc[k?/{o",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Disposer de",
+                "Have at one's disposal, possess  <br />\nAvoir à sa disposition pour utilisation personnelle ou professionnelle."
+            ],
+            "guid": "J_?E5NS7.S",
+            "note_model_uuid": "4e78c58a-a21e-11ef-8961-c54b13552302",
+            "tags": [
+                "Obsidian_to_Anki"
+            ]
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
