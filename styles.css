@@ -54,7 +54,7 @@ button {
 }
 
 select {
-    max-width: 70vw;
+    max-width: 60vw;
     padding: 10px;
     margin: 10px;
     border: 1px solid #ccc;
