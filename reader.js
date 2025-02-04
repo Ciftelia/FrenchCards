@@ -1,4 +1,4 @@
-const isGitHubPages = window.location.hostname === 'your-github-username.github.io';
+const isGitHubPages = window.location.hostname === 'ciftelia.github.io';
 const basePath = isGitHubPages ? '/FrenchCards' : '';
 
 let jsonData;  // Global variable for fetched data
