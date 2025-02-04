@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Create navigation buttons
     const prevButton = document.createElement('button');
-    prevButton.innerText = 'Previous Card';
+    prevButton.innerText = 'Last Card';
     prevButton.onclick = prevCard;
     prevButton.className = 'same-size';
     container.appendChild(prevButton);
