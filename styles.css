@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#flashcards-container {
+    height: 70vh; /* Adjust the height as needed */
+    position: relative;
+}
+
+button {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words */
+    max-width: 100%; /* Ensure button does not exceed viewport width */
+    overflow-wrap: break-word; /* Break long words */
+}
+
+select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+option {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

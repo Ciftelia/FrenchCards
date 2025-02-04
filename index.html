@@ -3,21 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link stylesheet="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Hello World</title>
   </head>
   <body>
-    <h3>Flashcards</h3>
+    <div class="side-by-side">
+      <h3>Flashcards</h3>
 
-    <select id="json-selector">
-      <option value="/FlashCardsAsJSON/Semaine_10/deck.json">Semaine 10</option>
-      <option value="/FlashCardsAsJSON/Semaine_9/deck.json">Semaine 9</option>
-      <option value="/FlashCardsAsJSON/Semaine_4/deck.json">Semaine 4</option>
-      <option value="/FlashCardsAsJSON/VOLTAIRE_L'ingénu/deck.json">
-        Voltaire-l'ingenu
-      </option>
-    </select>
+      <select id="json-selector" class="centered">
+        <option value="/FlashCardsAsJSON/Semaine_10/deck.json">
+          Semaine 10
+        </option>
+        <option value="/FlashCardsAsJSON/Semaine_9/deck.json">Semaine 9</option>
+        <option value="/FlashCardsAsJSON/Semaine_4/deck.json">Semaine 4</option>
+        <option selected value="/FlashCardsAsJSON/VOLTAIRE_L'ingénu/deck.json">
+          Voltaire-l'ingenu
+        </option>
+      </select>
+    </div>
 
-    <div id="flashcards-container"></div>
+    <div class="centered" id="flashcards-container"></div>
+    <div class="side-by-side" id="container"></div>
 
     <script src="reader.js"></script>
   </body>
