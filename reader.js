@@ -41,7 +41,7 @@ function createHtmlElement(jsonData) {
 
         container.appendChild(cardElement);
         
-        // Sleep for a short duration at the end of each loop iteration
+        
     });
 }
 
