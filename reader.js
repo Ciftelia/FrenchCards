@@ -45,14 +45,15 @@ function showCard(index) {
     showAnswerButton.innerText = 'Show Answer';
     showAnswerButton.onclick = () => {
         answerElement.style.display = 'block';
-        showAnswerButton.style.display = 'none'; // Hide the 'Show Answer' button
+        showAnswerButton.style.display = 'none';
     };
     cardElement.appendChild(showAnswerButton);
+
     container.appendChild(cardElement);
 }
 
 function nextCard() {
-    if (currentIndex < jsonData.notes.length -1 ) {
+    if (currentIndex < jsonData.notes.length - 1) {
         currentIndex++;
         showCard(currentIndex);
     }
@@ -65,22 +66,22 @@ function prevCard() {
     }
 }
 
- document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const selector = document.getElementById('json-selector');
-    jsonData = await fetchJSON(basePath+selector.value);
+    jsonData = await fetchJSON(basePath + selector.value);
 
     const container = document.getElementById('container');
 
     // Create navigation buttons
     const prevButton = document.createElement('button');
-    prevButton.innerText = 'Last Card';
+    prevButton.innerText = 'Previous Card';
     prevButton.onclick = prevCard;
     prevButton.className = 'same-size';
-    container.appendChild(prevButton);  
+    container.appendChild(prevButton);
 
     const nextButton = document.createElement('button');
     nextButton.innerText = 'Next Card';
-    nextButton.onclick = nextCard;  
+    nextButton.onclick = nextCard;
     nextButton.className = 'same-size';
     container.appendChild(nextButton);
 
@@ -89,7 +90,7 @@ function prevCard() {
 });
 
 document.getElementById('json-selector').addEventListener('change', async (event) => {
-    jsonData = await fetchJSON(basePath+event.target.value);
+    jsonData = await fetchJSON(basePath + event.target.value);
     currentIndex = 0; // Reset to the first card
     showCard(currentIndex);
 });
